@@ -21,79 +21,9 @@
 
     <!-- link CSS  -->
     <link rel="stylesheet" href="./style.css" />
-
+    <link rel="stylesheet" href="input.css">
     <title>Razorpay - Best Payment Solution for Online Payments India</title>
 
-    <style>
-      .coreFeature {
-        background-size: 100% 100%;
-        padding-top: 14rem;
-        padding-bottom: 12rem;
-      }
-
-      .ctaSection {
-        background-size: 100% 100%;
-      }
-
-      .companiesList {
-        animation: moving 10s linear infinite;
-      }
-
-      @keyframes moving {
-        0% {
-          top: 0;
-        }
-
-        100% {
-          top: -50%;
-        }
-      }
-
-      .featureCard:hover .featureCardIcon {
-        background-image: linear-gradient(
-          30.55deg,
-          #6ac7ff 11.05%,
-          #148aff 90.09%
-        );
-        box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
-      }
-
-      .featureCard:hover .featureCardSVG {
-        filter: drop-shadow(0px 2px 22px rgba(202, 202, 202, 0.25));
-        stroke-opacity: 0 !important;
-      }
-
-      .featureCard:hover .featureCardBox {
-        background-image: url("/images/features-wave.svg");
-        background-repeat: no-repeat;
-        background-position: bottom 1rem right;
-      }
-
-      .featureCard2:hover .featureCardBox {
-        background-image: url("/images/features2-wave.svg");
-        background-repeat: no-repeat;
-        background-position: bottom 1rem right;
-      }
-
-      .featureCard2:hover .featureCardSVG {
-        filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
-        stroke-opacity: 0 !important;
-      }
-
-      .featureCard2:hover .featureCardIcon {
-        background-image: linear-gradient(
-          188.57deg,
-          #2095ff -16.05%,
-          #6416ff 116.32%
-        );
-        box-shadow: 0px 2px 24px rgb(0 0 0 / 40%);
-        transition: all 200ms ease-in-out;
-      }
-
-      .newFeatureCard {
-        box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
-      }
-    </style>
   </head>
 
   <body>
@@ -342,6 +272,7 @@
       <div
         class="absolute border-t-[6rem] border-l-[6rem] border-t-transparent border-l-white z-20 top-6 right-0 md:hidden"
       ></div>
+      <!-- left section -->
       <div class="flex flex-col justify-between items-start w-full">
         <h3
           class="font-mullish text-xl md:leading-10 md:text-[28px] font-bold md:max-w-[500px] max-w-[190px]"
@@ -352,105 +283,27 @@
         <!-- Features list -->
         <ul class="space-y-2 my-6 md:my-0">
           <li class="font-mullish flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-check text-greenLight"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <i data-feather="check" class="text-greenLight"></i>
             <span>100+ Payment Methods</span>
           </li>
           <li class="font-mullish flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-check text-greenLight"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <i data-feather="check" class="text-greenLight"></i>
             <span> Industry Leading Success Rate </span>
           </li>
           <li class="font-mullish flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-check text-greenLight"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <i data-feather="check" class="text-greenLight"></i>
             <span> Superior Checkout Experience </span>
           </li>
           <li class="font-mullish flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-check text-greenLight"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <i data-feather="check" class="text-greenLight"></i>
             <span> Easy to Integrate </span>
           </li>
           <li class="font-mullish flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-check text-greenLight"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <i data-feather="check" class="text-greenLight"></i>
             <span> Instant Settlements from day 1 </span>
           </li>
           <li class="font-mullish flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-check text-greenLight"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <i data-feather="check" class="text-greenLight"></i>
             <span> In-depth Reporting and Insights </span>
           </li>
         </ul>
@@ -478,20 +331,9 @@
               class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -556,20 +398,9 @@
               class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -624,20 +455,9 @@
               class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -692,20 +512,9 @@
               class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -760,20 +569,9 @@
               class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -828,20 +626,9 @@
               class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -896,20 +683,9 @@
               class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
               >Know More</a
             >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
+            <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
           </div>
         </div>
       </div>
@@ -995,71 +771,19 @@
           <!-- Features list -->
           <ul class="space-y-2 my-6 md:my-0">
             <li class="font-mullish flex text-white items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-check text-greenLight"
-              >
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
+              <i data-feather="check" class="text-greenLight"></i>
               <span>Open a fully digital current account</span>
             </li>
             <li class="font-mullish flex text-white items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-check text-greenLight"
-              >
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
+              <i data-feather="check" class="text-greenLight"></i>
               <span>Automate payables &amp; compliment payments</span>
             </li>
             <li class="font-mullish flex text-white items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-check text-greenLight"
-              >
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
+              <i data-feather="check" class="text-greenLight"></i>
               <span>Simplify and track spends with Corporate cards</span>
             </li>
             <li class="font-mullish flex text-white items-center space-x-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-check text-greenLight"
-              >
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
+              <i data-feather="check" class="text-greenLight"></i>
               <span>View financial insights at a glance</span>
             </li>
           </ul>
@@ -1091,20 +815,9 @@
                 class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"
                 >Know More</a
               >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"
-              >
-                <polyline points="9 18 15 12 9 6"></polyline>
-              </svg>
+              <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
             </div>
           </div>
         </div>
@@ -1364,18 +1077,21 @@
 
 <!-- --------------------------------New Features-------------------------------- -->
 <section>
-  <div class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4">
+  <div class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4 ">
     <img
       src="/images/feature-section1-dottedrows.png"
       class="hidden md:block absolute w-[233px] left-[300px] -top-[6rem] -z-[10]"
+      loading="lazy"
     />
     <img
       src="/images/feature-section1-dottedrows.png"
       class="hidden md:block absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-[10]"
+      loading="lazy"
     />
     <div
       class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]"
     >
+    <!--item 1-->
       <div class="grid place-items-center relative">
         <h2
           class="text-deepBlueHead font-mullish font-extrabold text-4xl leading-[3.375rem]"
@@ -1384,7 +1100,7 @@
           Product Suite
         </h2>
       </div>
-      <!-- new feature - 1 -->
+      <!-- card 1 -->
       <div
         class="w-full p-10 max-h-[300px] bg-white cursor-pointer bg-no-repeat bg-[url(/images/instant-settlement-bg.svg)] hover:bg-[url(/images/instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200 newFeatureCard"
       >
@@ -1400,23 +1116,12 @@
             class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"
             >Know More</a
           >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"
-          >
-            <polyline points="9 18 15 12 9 6"></polyline>
-          </svg>
+          <i
+            data-feather="chevron-right"
+            class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
         </div>
       </div>
-      <!-- new feature - 2 -->
+      <!-- card 2 -->
       <div
         style="background-position: -2px -2px"
         class="w-full max-h-[300px] p-10 bg-white cursor-pointer bg-[url(/images/upi-autopay-bg.svg)] bg-no-repeat hover:bg-[url(/images/upi-autopay-hoverbg.svg)] hover:scale-105 transition-all duration-200 newFeatureCard"
@@ -1451,7 +1156,7 @@
           </svg>
         </div>
       </div>
-      <!-- new feature - 3 -->
+      <!-- card 3 -->
       <div
         style="background-position: -2px -2px"
         class="w-full max-h-[300px] bg-white p-10 cursor-pointer bg-[url(/images/magic-checkout-bg.svg)] bg-no-repeat hover:bg-[url(/images/magic-checkout-hoverbg.svg)] hover:scale-105 transition-all duration-200 newFeatureCard"
@@ -1487,7 +1192,7 @@
           </svg>
         </div>
       </div>
-      <!-- new feature - 4 -->
+      <!-- card 4 -->
       <div
         style="background-position: -2px -2px"
         class="w-full max-h-[300px] bg-white p-10 cursor-pointer bg-[url(/images/payment-button-bg.svg)] bg-no-repeat hover:bg-[url(/images/payment-button-hoverbg.svg)] hover:scale-105 transition-all duration-200 newFeatureCard"
@@ -1523,7 +1228,7 @@
           </svg>
         </div>
       </div>
-      <!-- new feature - 5 -->
+      <!-- card 5 -->
       <div
         style="background-position: -2px -2px"
         class="w-full max-h-[300px] bg-white p-10 cursor-pointer hover:bg-cover bg-[url(/images/instantsettlement-bg.svg)] bg-no-repeat hover:bg-[url(/images/instantsettlement-hoverbg.svg)] hover:scale-105 transition-transform duration-200 newFeatureCard"
@@ -1566,7 +1271,7 @@
 
 <!-- --------------------------------Core Features-------------------------------- -->
 <section
-  class="w-full bg-[url(/images/core-features-sectionBg.svg)] coreFeaturesBg bg-no-repeat bg-cover bg-center mt-6 md:mt-14 relative z-[1000]"
+  class="w-full bg-[url(/images/core-features-sectionBg.svg)] coreFeaturesBg bg-no-repeat bg-center mt-6 md:mt-14 relative z-[1000]"
 >
   <div class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4">
     <h2 class="font-mullish font-extrabold text-2xl text-center text-white">
@@ -1703,14 +1408,15 @@
         class="absolute w-full h-[200px] top-0 z-20"
         style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
       ></div>
-      <div
-        class="absolute w-full h-[200px] bottom-0 z-20"
-        style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
-      ></div>
+      
       <img
         src="/images/comanies.png"
         class="absolute w-full object-cover h-full md:h-auto z-10 companiesList"
       />
+      <div
+        class="absolute w-full h-[200px] bottom-0 z-20"
+        style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
+      ></div>
     </div>
   </div>
 </section>
@@ -1869,71 +1575,19 @@
       </p>
       <ul class="space-y-2 flex flex-wrap text-white my-8">
         <li class="font-mullish flex items-center gap-x-2 mr-12">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-check text-greenLight"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
+          <i data-feather="check" class="text-greenLight"></i>
           <span>Quick Onboarding</span>
         </li>
         <li class="font-mullish flex items-center gap-x-2 mr-12">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-check text-greenLight"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
+          <i data-feather="check" class="text-greenLight"></i>
           <span>Access to entire product suite </span>
         </li>
         <li class="font-mullish flex items-center gap-x-2 mr-12">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-check text-greenLight"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
+          <i data-feather="check" class="text-greenLight"></i>
           <span>API access</span>
         </li>
         <li class="font-mullish flex items-center gap-x-2 mr-12">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-check text-greenLight"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
+          <i data-feather="check" class="text-greenLight"></i>
           <span>24x7 support</span>
         </li>
       </ul>
